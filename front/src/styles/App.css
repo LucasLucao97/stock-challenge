@@ -1,0 +1,74 @@
+/* app.css */
+
+/* Estilos básicos */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #2980b9;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Estilos del header */
+  .app-header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .app-title {
+    font-size: 24px;
+    color: #f4f7f9;
+  }
+  
+  /* Estilos del contenido */
+  .app-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* Estilos del footer */
+  .app-footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  /* Estilos para móviles */
+  @media (max-width: 768px) {
+    .app-title {
+      font-size: 20px;
+    }
+  
+    .app-header, .app-footer {
+      padding: 15px;
+    }
+  
+    .app-content {
+      padding: 15px;
+    }
+  }
+  

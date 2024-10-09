@@ -1,0 +1,52 @@
+/* CreateOrder.css */
+
+.create-order-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Color de fondo */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+    font-family: Arial, sans-serif; /* Fuente */
+  }
+  
+  .create-order-header {
+    font-size: 2rem;
+    margin-bottom: 20px; /* Espaciado debajo del título */
+  }
+  
+  .product-list,
+  .order-list {
+    list-style-type: none; /* Quitar puntos de la lista */
+    padding: 0; /* Quitar padding */
+  }
+  
+  .product-item,
+  .order-item {
+    display: flex; /* Usar flexbox para alinear elementos */
+    justify-content: space-between; /* Espacio entre elementos */
+    padding: 10px;
+    border: 1px solid #ddd; /* Borde del elemento */
+    margin: 5px 0; /* Espaciado entre los elementos */
+    border-radius: 4px; /* Bordes redondeados */
+    background-color: #fff; /* Color de fondo de los elementos */
+  }
+  
+  .product-item button,
+  .order-item button {
+    margin-left: 10px; /* Espaciado entre botones */
+  }
+  
+  .create-order-button {
+    margin-top: 20px; /* Espaciado arriba del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Quitar borde */
+    border-radius: 5px; /* Bordes redondeados del botón */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+  }
+  
+  .create-order-button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+  }
+  

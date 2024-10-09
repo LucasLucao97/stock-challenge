@@ -1,0 +1,30 @@
+.order-list-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #f0f4f8; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .order-list-title {
+    color: #333; 
+  }
+  
+  .order-list-ul {
+    list-style-type: none; 
+    padding: 0; 
+  }
+  
+  .order-list-li {
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    transition: background-color 0.3s; 
+  }
+  
+  .order-list-li:hover {
+    background-color: #e9ecef; 
+  }
+  
